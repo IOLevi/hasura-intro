@@ -1,0 +1,6 @@
+clusters:
+- alias: minikube
+  data: null
+  infra:
+    provider: minikube
+version: v1
