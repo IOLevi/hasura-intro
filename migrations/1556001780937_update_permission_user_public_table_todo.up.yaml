@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns: []
+      filter:
+        user_id:
+          _eq: X-HASURA-USERID
+    role: user
+    table:
+      name: todo
+      schema: public
+  type: create_update_permission
